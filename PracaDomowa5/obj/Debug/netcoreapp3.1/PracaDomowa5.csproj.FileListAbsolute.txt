@@ -1,0 +1,14 @@
+C:\Users\mateu\source\repos\PracaDomowa5\PracaDomowa5\obj\Debug\netcoreapp3.1\PracaDomowa5.csproj.AssemblyReference.cache
+C:\Users\mateu\source\repos\PracaDomowa5\PracaDomowa5\obj\Debug\netcoreapp3.1\PracaDomowa5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mateu\source\repos\PracaDomowa5\PracaDomowa5\obj\Debug\netcoreapp3.1\PracaDomowa5.AssemblyInfoInputs.cache
+C:\Users\mateu\source\repos\PracaDomowa5\PracaDomowa5\obj\Debug\netcoreapp3.1\PracaDomowa5.AssemblyInfo.cs
+C:\Users\mateu\source\repos\PracaDomowa5\PracaDomowa5\obj\Debug\netcoreapp3.1\PracaDomowa5.csproj.CoreCompileInputs.cache
+C:\Users\mateu\source\repos\PracaDomowa5\PracaDomowa5\bin\Debug\netcoreapp3.1\PracaDomowa5.exe
+C:\Users\mateu\source\repos\PracaDomowa5\PracaDomowa5\bin\Debug\netcoreapp3.1\PracaDomowa5.deps.json
+C:\Users\mateu\source\repos\PracaDomowa5\PracaDomowa5\bin\Debug\netcoreapp3.1\PracaDomowa5.runtimeconfig.json
+C:\Users\mateu\source\repos\PracaDomowa5\PracaDomowa5\bin\Debug\netcoreapp3.1\PracaDomowa5.runtimeconfig.dev.json
+C:\Users\mateu\source\repos\PracaDomowa5\PracaDomowa5\bin\Debug\netcoreapp3.1\PracaDomowa5.dll
+C:\Users\mateu\source\repos\PracaDomowa5\PracaDomowa5\bin\Debug\netcoreapp3.1\PracaDomowa5.pdb
+C:\Users\mateu\source\repos\PracaDomowa5\PracaDomowa5\obj\Debug\netcoreapp3.1\PracaDomowa5.dll
+C:\Users\mateu\source\repos\PracaDomowa5\PracaDomowa5\obj\Debug\netcoreapp3.1\PracaDomowa5.pdb
+C:\Users\mateu\source\repos\PracaDomowa5\PracaDomowa5\obj\Debug\netcoreapp3.1\PracaDomowa5.genruntimeconfig.cache
