@@ -15,6 +15,7 @@ namespace PracaDomowa5
             height = h;
             weight = w;
             redCard = false;
+            
         }
         public virtual string GetRedCard()
         {

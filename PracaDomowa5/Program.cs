@@ -12,7 +12,8 @@ namespace PracaDomowa5
             Console.WriteLine($"{footballPlayer2.GetWeight()}");
             footballPlayer2.SetWeight(87);
             Console.WriteLine($"{footballPlayer2.GetWeight()}");*/
-            GetInfoFootballPlayer(AddFootballPlayer());
+            FootballPlayer footballPlayer1 = AddFootballPlayer();
+            GetInfoFootballPlayer(footballPlayer1);
         }
         public static FootballPlayer AddFootballPlayer()
         {
@@ -43,6 +44,17 @@ namespace PracaDomowa5
                         newFootballPlayer = new Defender(fname, fsurname, fyear, fheight, fweight);
                         break;
                       }
+                case "M":
+                    {
+                        newFootballPlayer = new Midfielder(fname, fsurname, fyear, fheight, fweight);
+                        break;
+                    }
+                case "F":
+                    {
+                        newFootballPlayer = new Forward(fname, fsurname, fyear, fheight, fweight);
+                        break;
+                    }
+
                 default:
                     {
                         newFootballPlayer = null;
@@ -57,10 +69,26 @@ namespace PracaDomowa5
             if(footballPlayer is Goalkeeper)
             {
                 Console.WriteLine($"{footballPlayer.GetPosition()} {footballPlayer.GetName()} {footballPlayer.GetSurname()} urodzony w {footballPlayer.GetYearOfBirth()}roku o wzroscie {footballPlayer.GetHeight()}cm i wadze {footballPlayer.GetWeight()}kg dolaczyl do szeregow naszego klubu");
+                Goalkeeper goalkeeper = (Goalkeeper)footballPlayer;
+                Console.WriteLine($"{goalkeeper.GetShout()}");
             }
             else if(footballPlayer is Defender)
             {
                 Console.WriteLine($"{footballPlayer.GetPosition()} {footballPlayer.GetName()} {footballPlayer.GetSurname()} urodzony w {footballPlayer.GetYearOfBirth()}roku o wzroscie {footballPlayer.GetHeight()}cm i wadze {footballPlayer.GetWeight()}kg dolaczyl do szeregow naszego klubu");
+                Defender defender = (Defender)footballPlayer;
+                Console.WriteLine($"{defender.GetShout()}");
+            }
+            else if(footballPlayer is Midfielder)
+            {
+                Console.WriteLine($"{footballPlayer.GetPosition()} {footballPlayer.GetName()} {footballPlayer.GetSurname()} urodzony w {footballPlayer.GetYearOfBirth()}roku o wzroscie {footballPlayer.GetHeight()}cm i wadze {footballPlayer.GetWeight()}kg dolaczyl do szeregow naszego klubu");
+                Midfielder midfielder = (Midfielder)footballPlayer;
+                Console.WriteLine($"{midfielder.GetShout()}");
+            }
+            else if(footballPlayer is Forward)
+            {
+                Console.WriteLine($"{footballPlayer.GetPosition()} {footballPlayer.GetName()} {footballPlayer.GetSurname()} urodzony w {footballPlayer.GetYearOfBirth()}roku o wzroscie {footballPlayer.GetHeight()}cm i wadze {footballPlayer.GetWeight()}kg dolaczyl do szeregow naszego klubu");
+                Forward forward = (Forward)footballPlayer;
+                Console.WriteLine($"{forward.GetShout()}");
             }
             else
             {
